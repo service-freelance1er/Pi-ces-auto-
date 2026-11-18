@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Projet Boutique Dropshipping — démonstration de technologies web avancées.">
+  <meta name="theme-color" content="#6d5dfc">
+  <title>Boutique Dropshipping — Accueil</title>
+  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="assets/style.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="index.html">DROP<span>LAB</span></a>
+  <nav aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="shop.html">Boutique</a><a href="about.html">À propos</a><a href="contact.html">Contact</a></nav>
+  <div class="header-actions"><button id="themeToggle" class="icon-btn" aria-label="Changer le thème">◐</button><a class="cart-link" href="cart.html">Panier <span id="cartCount">0</span></a></div>
+</header>
+<main>
+<section class="hero">
+  <div><p class="eyebrow">EXPÉRIENCE WEB STATIQUE</p><h1>Le laboratoire des <em>technologies avancées.</em></h1>
+  <p class="lead">Un projet multi-pages sans base de données ni serveur : catalogue JSON, panier local, recherche, thème, PWA et interface responsive.</p>
+  <div class="actions"><a class="btn primary" href="shop.html">Explorer la boutique</a><a class="btn ghost" href="#features">Découvrir la technologie</a></div></div>
+  <div class="hero-card"><span>100%</span><strong>Statique</strong><small>Rapide · Moderne · Démonstratif</small></div>
+</section>
+<section id="features" class="section"><p class="eyebrow">STACK & FONCTIONNALITÉS</p><h2>Chaque détail est pensé comme un test technique.</h2>
+<div class="grid features"><article><h3>⚡ Performance</h3><p>CSS moderne, chargement différé et JavaScript modulaire.</p></article><article><h3>🛒 LocalStorage</h3><p>Panier et favoris persistants sans serveur.</p></article><article><h3>🔎 Recherche</h3><p>Filtrage instantané directement dans le navigateur.</p></article><article><h3>📱 PWA</h3><p>Manifest et Service Worker pour une expérience installable.</p></article></div>
+</section>
+<section class="section"><div class="section-head"><div><p class="eyebrow">DÉMONSTRATION</p><h2>Produits en vedette</h2></div><a href="shop.html">Voir tout →</a></div><div id="featuredProducts" class="product-grid"></div></section>
+</main>
+<footer><strong>DROP<span>LAB</span></strong><p>Projet de test — site statique multi-pages.</p><p>© <span id="year"></span></p></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>
